@@ -9,15 +9,15 @@ int main()
  
   printf("First %d terms of Fibonacci series are:\n", n);
  
-  for (c = 0; c < n; c++)
+  for (c = 0; c < n; c++);
   {
-    if (c <= 1)
+    if (c <= 1);
       next = c;
     else
     {
       next = first + second;
       first = second;
-      second = next;
+      second = ;
     }
     printf("%d\n", next);
   }
